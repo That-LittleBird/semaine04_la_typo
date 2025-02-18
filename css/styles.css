@@ -18,7 +18,7 @@ html{
 body{
     margin: 0;
     padding: 0;
-    
+
     font-family: "Roboto", serif;
     font-size: 2rem;
 }
@@ -40,11 +40,14 @@ header{
 }
 
 h1{
-
     font-size: 9.6rem;
     font-weight: 900;
     letter-spacing: 36%;
     color: #ffffff;
+
+    margin: 0;
+    padding-top: 50px;
+    padding-bottom: 50px;
 }
 
 /* ------ Section 1 ------ */
@@ -61,6 +64,7 @@ h2{
 .conteneur1 p{
     font-family: "Quicksand", serif;
     font-size: 3.6rem;
+    margin: 0;
 }
 
 .rond{
@@ -79,16 +83,41 @@ h2{
     align-items: center;
 }
 
-article:hover{
+.conteneur1 article:hover{
     background-color: #BDC3C7;
 }
 
 /* ------ Section 2 ------ */
 
+.info .wrapper{
+    display: flex;
+    gap: 60px;
+    align-items: .info
 
+    padding: 50px;
+}
+
+.info p{
+    line-height: 40px;
+    margin: 0;
+}
 
 /* ------ Footer ------ */
 
 footer{
     background-color: #2980B9;
+}
+footer p{
+    font-weight: 700;
+
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+
+footer .icon{
+    height: 20px;
+    width: 20px;
+
+    background-color: #ffffff;
 }
